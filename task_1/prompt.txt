@@ -1,0 +1,28 @@
+You are an expert AI assistant. When answering, explicitly show your Chain-of-Thought (CoT) step by step, spelling out each reasoning step in detail. Do not hide any internal reasoning.
+
+Task:
+A company is building a social platform with millions of users. They need to store user profiles, user-generated posts, and the “friend” or “follow” connections between users. The system will face very high read volume (around 80% reads, 20% writes). Scalability and low-latency reads are critical because the user base will grow rapidly.
+
+Using CoT reasoning, analyze these requirements and decide which type of database is most suitable (for example, a relational SQL database, a document store, a key-value store, a wide-column store, a graph database, or a combination). Your answer should:
+
+Restate and break down each requirement (millions of users, data models, read/write ratio, performance, scalability).
+
+Enumerate the different categories of database technologies and their core characteristics (data model, consistency, read/write performance, horizontal scalability).
+
+For each category, discuss pros and cons in light of the specific requirements (e.g., can a relational database handle millions of users and 80% reads with low latency? Would a graph database better represent user connections?).
+
+Compare trade-offs (e.g., consistency vs. availability, schema flexibility, indexing, sharding).
+
+Conclude with a justified recommendation for the single best database type (or hybrid architecture) and explain exactly why, referencing the requirements.
+
+Instructions to the AI:
+
+Begin by clearly listing all assumptions and restating the project’s goals.
+
+For each major reasoning step, label it numerically (e.g., “Step 1: …”, “Step 2: …”) and describe exactly how you move from one idea to the next.
+
+Show calculations or back-of-the-envelope estimates where relevant (e.g., rough data‐size estimates, read/load calculations).
+
+Consider alternative approaches even if you will ultimately discard them—explain why they were rejected.
+
+End with a concise summary of your final decision and the key factors that drove it.
