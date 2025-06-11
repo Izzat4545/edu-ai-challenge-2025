@@ -1,0 +1,46 @@
+function processUserData(data: any) {
+  var users = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var user = {
+      id: data[i].id,
+      name: data[i].name,
+      email: data[i].email,
+      active: data[i].status === 'active' ? true : false
+    };
+    users.push(user);
+  }
+  console.log("Processed " + users.length + " users");
+  return users;
+}
+
+function saveToDatabase(users) {
+  //TODO: Implement database connection
+  var success = true;
+  return success;
+}
+
+Here is a JavaScript code snippet. I want you to analyze it in three distinct phases, adopting a different expert persona for each phase. After each persona’s analysis, clearly label the section heading with the persona name.
+
+1. Experienced Developer
+   - Focus on code readability, maintainability, style, and overall correctness.
+   - Point out any JavaScript/TypeScript best-practice violations.
+   - Suggest specific, actionable refactorings or idiomatic improvements.
+
+2. Security Engineer
+   - Review for potential security issues (e.g. injection, leakage, unsafe types).
+   - Identify where user data might be mishandled or where error states could expose sensitive information.
+   - Propose concrete steps—libraries, patterns, validations—to harden the code against attacks.
+
+3. Performance Specialist
+   - Analyze time and space complexity, memory usage, and I/O patterns.
+   - Highlight any hotspots, unnecessary loops or allocations, and synchronous bottlenecks.
+   - Recommend precise optimizations or architectural changes for improved throughput and responsiveness.
+
+**Instructions:**
+- Process the following snippet as your input.
+- For each persona, output:
+  1. A brief summary of your role’s top concerns.
+  2. A bulleted list of 3–5 targeted observations or recommendations.
+- Keep each persona’s analysis to around 100–150 words.
+- Use clear headings:  
