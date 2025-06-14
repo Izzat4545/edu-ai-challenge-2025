@@ -1,0 +1,45 @@
+[
+  {
+    "sentiment": "Negative",
+    "isRelevant": true,
+    "mainSubject": "Sensor tracking reliability and dongle failure",
+    "positives": [],
+    "painPoints": [
+      "Sensor intermittently stops tracking",
+      "Tracking issues persist even when plugged in",
+      "Initial dongle was defective",
+      "High cost for unreliable performance"
+    ],
+    "improvementSuggestions": [
+      "Improve sensor tracking reliability at high polling rates",
+      "Ensure dongles are tested for functionality before shipping"
+    ],
+    "featuresMentioned": [
+      "Sensor tracking",
+      "Dongle",
+      "Polling rate (8000hz)",
+      "Price"
+    ],
+    "userExpertise": "Experienced"
+  },
+  {
+    "sentiment": "Mixed",
+    "isRelevant": true,
+    "mainSubject": "Price-to-performance evaluation",
+    "positives": [
+      "Flawless performance (opinion)"
+    ],
+    "painPoints": [
+      "High price not justified by performance over cheaper options"
+    ],
+    "improvementSuggestions": [
+      "Consider lowering price to improve value proposition"
+    ],
+    "featuresMentioned": [
+      "Price",
+      "Performance",
+      "Specs"
+    ],
+    "userExpertise": "Experienced"
+  }
+]
