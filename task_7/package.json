@@ -1,0 +1,17 @@
+{
+  "name": "seabattle",
+  "version": "1.0.0",
+  "description": "Modern implementation of the Sea Battle game",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
